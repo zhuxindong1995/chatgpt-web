@@ -477,6 +477,16 @@ onUnmounted(() => {
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
               <span>Aha~</span>
             </div>
+            <br>
+            <div style="color: black; text-align: center;">
+              永久免费提供学习和测试，支持上下文，支持保存会话
+            </div>
+            <div style="color: black; text-align: center;">
+              api_key由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落
+            </div>
+            <div>
+              <img src="@/assets/wechat.png" style="margin: auto; display: block;">
+            </div>
           </template>
           <template v-else>
             <div>
