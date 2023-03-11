@@ -127,7 +127,7 @@ async function onConversation() {
                 requestOptions: { prompt: message, options: { ...options } },
               },
             )
-
+          scrollToBottom()
             if (openLongReply && data.detail.choices[0].finish_reason === 'length') {
               options.parentMessageId = data.id
               lastText = data.text
