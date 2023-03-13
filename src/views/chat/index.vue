@@ -483,10 +483,10 @@ onUnmounted(() => {
             </div>
 
             <div style="color: black; text-align: center;">
-              api_key由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落
+              api_key费用由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落
             </div>
             <div>
-              <img src="@/assets/wechat.png" style="margin: auto; display: block;">
+              <img src="https://im.geekcloud.cf/file/afabe856504ff27591723.png" style="margin: auto; display: block;">
             </div>
           </template>
           <template v-else>
