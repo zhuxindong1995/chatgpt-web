@@ -479,15 +479,21 @@ onUnmounted(() => {
             <br>
 
             <div style="color: black; text-align: center;">
-              永久免费提供学习和测试，支持上下文，支持保存会话
+              永久免费提供学习和测试，支持上下文，支持保存会话。
             </div>
 
             <div style="color: black; text-align: center;">
-              api_key费用由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落
+              api_key费用由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落。
             </div>
+						
+						<div style="color: black; text-align: center;">
+              公益站余额消耗很快，站长会尽力及时补，如果有需要私人定制使用，可以联系站长的 <a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank" >WeChat</a>
+            </div>
+						
             <div>
               <img src="https://im.geekcloud.cf/file/afabe856504ff27591723.png" style="margin: auto; display: block;">
             </div>
+						
           </template>
           <template v-else>
             <div>
