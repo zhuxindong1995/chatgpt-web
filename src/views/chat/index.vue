@@ -160,6 +160,11 @@ async function onConversation() {
       scrollToBottom()
       return
     }
+		
+		if (error.message === 'Request failed with status code 403') {
+      window.location.reload(true)
+      return
+    }
 
     const currentChat = getChatByUuidAndIndex(+uuid, dataSources.value.length - 1)
 
@@ -282,6 +287,11 @@ async function onRegenerate(index: number) {
           loading: false,
         },
       )
+      return
+    }
+		
+		if (error.message === 'Request failed with status code 403') {
+      window.location.reload(true)
       return
     }
 
