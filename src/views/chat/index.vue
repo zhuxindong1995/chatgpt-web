@@ -162,7 +162,7 @@ async function onConversation() {
     }
 		
 		if (error.message === 'Request failed with status code 403') {
-      window.location.reload(true)
+      window.location.reload()
       return
     }
 
@@ -291,7 +291,7 @@ async function onRegenerate(index: number) {
     }
 		
 		if (error.message === 'Request failed with status code 403') {
-      window.location.reload(true)
+      window.location.reload()
       return
     }
 
