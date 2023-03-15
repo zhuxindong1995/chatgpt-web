@@ -166,6 +166,7 @@ async function onConversation() {
         +uuid,
         dataSources.value.length - 1,
         {
+          text: '请重新输入问题',
           loading: false,
         },
       )
@@ -303,6 +304,7 @@ async function onRegenerate(index: number) {
         +uuid,
         index,
         {
+          text: '请重新输入问题',
           loading: false,
         },
       )
