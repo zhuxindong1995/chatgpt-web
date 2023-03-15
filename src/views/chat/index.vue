@@ -162,6 +162,7 @@ async function onConversation() {
     }
 
     if (error.message === 'Request failed with status code 403') {
+      loading.value = false
       window.location.reload()
       return
     }
@@ -291,6 +292,7 @@ async function onRegenerate(index: number) {
     }
 
     if (error.message === 'Request failed with status code 403') {
+      loading.value = false
       window.location.reload()
       return
     }
