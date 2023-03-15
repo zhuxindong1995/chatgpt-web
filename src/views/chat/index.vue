@@ -127,7 +127,7 @@ async function onConversation() {
                 requestOptions: { prompt: message, options: { ...options } },
               },
             )
-          scrollToBottom()
+            scrollToBottom()
             if (openLongReply && data.detail.choices[0].finish_reason === 'length') {
               options.parentMessageId = data.id
               lastText = data.text
@@ -160,8 +160,8 @@ async function onConversation() {
       scrollToBottom()
       return
     }
-		
-		if (error.message === 'Request failed with status code 403') {
+
+    if (error.message === 'Request failed with status code 403') {
       window.location.reload()
       return
     }
@@ -289,8 +289,8 @@ async function onRegenerate(index: number) {
       )
       return
     }
-		
-		if (error.message === 'Request failed with status code 403') {
+
+    if (error.message === 'Request failed with status code 403') {
       window.location.reload()
       return
     }
@@ -460,6 +460,11 @@ onUnmounted(() => {
   if (loading.value)
     controller.abort()
 })
+
+caches.keys().then((names) => {
+  for (const name of names)
+    caches.delete(name)
+})
 </script>
 
 <template>
@@ -495,15 +500,14 @@ onUnmounted(() => {
             <div style="color: black; text-align: center;">
               api_key费用由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落。
             </div>
-						
-						<div style="color: black; text-align: center;">
-              公益站余额消耗很快，站长会尽力及时补，如果有需要私人定制使用，可以联系站长的 <a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank" >WeChat</a>
+
+            <div style="color: black; text-align: center;">
+              公益站余额消耗很快，站长会尽力及时补，如果有需要私人定制使用，可以联系站长的 <a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank">WeChat</a>
             </div>
-						
+
             <div>
               <img src="https://im.geekcloud.cf/file/afabe856504ff27591723.png" style="margin: auto; display: block;">
             </div>
-						
           </template>
           <template v-else>
             <div>
