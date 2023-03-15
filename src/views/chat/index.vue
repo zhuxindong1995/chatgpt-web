@@ -162,8 +162,14 @@ async function onConversation() {
     }
 
     if (error.message === 'Request failed with status code 403') {
-      controller.abort()
-      loading.value = false
+      updateChatSome(
+        +uuid,
+        dataSources.value.length - 1,
+        {
+          loading: false,
+        },
+      )
+      scrollToBottom()
       window.location.reload()
       return
     }
@@ -293,8 +299,14 @@ async function onRegenerate(index: number) {
     }
 
     if (error.message === 'Request failed with status code 403') {
-      controller.abort()
-      loading.value = false
+      updateChatSome(
+        +uuid,
+        index,
+        {
+          loading: false,
+        },
+      )
+      scrollToBottom()
       window.location.reload()
       return
     }
