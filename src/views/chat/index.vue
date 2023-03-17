@@ -479,10 +479,7 @@ onUnmounted(() => {
     controller.abort()
 })
 
-caches.keys().then((names) => {
-  for (const name of names)
-    caches.delete(name)
-})
+
 </script>
 
 <template>
