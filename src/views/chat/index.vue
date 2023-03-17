@@ -479,7 +479,15 @@ onUnmounted(() => {
     controller.abort()
 })
 
-
+try {
+  caches.keys().then((names) => {
+    for (const name of names)
+      caches.delete(name)
+  })
+}
+catch (error) {
+  //
+}
 </script>
 
 <template>
