@@ -182,6 +182,19 @@ async function onConversation() {
       return
     }
 
+    if (error.message === 'Request failed with status code 429') {
+      updateChatSome(
+        +uuid,
+        dataSources.value.length - 1,
+        {
+          text: '本小时请求速率过快，请稍后再试',
+          loading: false,
+        },
+      )
+      scrollToBottom()
+      return
+    }
+
     const currentChat = getChatByUuidAndIndex(+uuid, dataSources.value.length - 1)
 
     if (currentChat?.text && currentChat.text !== '') {
@@ -317,6 +330,19 @@ async function onRegenerate(index: number) {
       )
       scrollToBottom()
       window.location.reload()
+      return
+    }
+
+    if (error.message === 'Request failed with status code 429') {
+      updateChatSome(
+        +uuid,
+        dataSources.value.length - 1,
+        {
+          text: '本小时请求速率过快，请稍后再试',
+          loading: false,
+        },
+      )
+      scrollToBottom()
       return
     }
 
@@ -542,7 +568,7 @@ catch (error) {
                 api_key费用由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落。
               </div>
               <div style="color: black; text-align: center;">
-                公益站余额消耗很快，站长会尽力及时补，如果有需要私人定制使用，可以联系站长的 <a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank">WeChat</a>
+                公益站余额消耗很快，每小时可以回答200个问题，站长会尽力及时补，如果有需要私人定制使用，可以联系站长的 <a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank">WeChat</a>
               </div>
             </div>
           </template>
