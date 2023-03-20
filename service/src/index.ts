@@ -1,6 +1,7 @@
 import express from 'express'
 import type { ChatContext, ChatMessage } from './chatgpt'
 import { chatConfig, chatReplyProcess } from './chatgpt'
+import { limiter } from './middleware/limiter'
 
 const app = express()
 const router = express.Router()
@@ -14,6 +15,7 @@ app.all('*', (_, res, next) => {
   res.header('Access-Control-Allow-Methods', '*')
   next()
 })
+router.use('/chat-process', limiter)
 
 router.post('/chat-process', async (req, res) => {
   res.setHeader('Content-type', 'application/octet-stream')
