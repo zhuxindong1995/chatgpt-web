@@ -563,7 +563,10 @@ catch (error) {
               <br>
               <br>
               <br>
-              <img src="https://im.geekcloud.cf/file/afabe856504ff27591723.png" style="margin: auto; display: block; width: 30%; height: 30%;">
+              <div style="text-align: center;">
+                <img src="https://im.geekcloud.cf/file/afabe856504ff27591723.png" style="margin: auto; display: inline-block; width: 35%; height: 35%;">
+                <img src="https://im.geekcloud.cf/file/fb48ab4d864e5d1701321.png" style="margin: auto; display: inline-block; width: 35%; height: 35%;">
+              </div>
               <div style="color: black; text-align: center;">
                 api_key费用由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落。
               </div>
