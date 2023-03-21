@@ -518,7 +518,7 @@ onMounted(() => {
   // inlineScript.type = 'text/javascript'
   // inlineScript.text = '(adsbygoogle = window.adsbygoogle || []).push({});'
 
-  containerRef.value.appendChild(adsScript)
+  containerRef.value!.appendChild(adsScript)
   // containerRef.value.appendChild(inlineScript)
 })
 
