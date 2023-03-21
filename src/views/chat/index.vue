@@ -557,7 +557,7 @@ catch (error) {
               <h1><a href="https://cdn.suyusafe.com/" class="text-blue-500" target="_blank">速御安全专业解决DD/CC攻击高防免备案</a></h1>
             </div>
             <div style="color: black; text-align: center; font-size: 150%;">
-              <h1><a href="https://bandwagonhost.com/aff.php?aff=70871" class="text-blue-500" target="_blank">搬瓦工云服务器购买推荐</a></h1>
+              <h1><a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank">广告位招租</a></h1>
             </div>
             <div>
               <br>
