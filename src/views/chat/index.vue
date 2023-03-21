@@ -202,7 +202,7 @@ async function onConversation() {
         +uuid,
         dataSources.value.length - 1,
         {
-          text: `${currentChat.text}\n[${errorMessage}]`,
+          text: '${currentChat.text}\n[${errorMessage}]',
           error: false,
           loading: false,
         },
@@ -504,8 +504,22 @@ const footerClass = computed(() => {
   return classes
 })
 
+const containerRef = ref<HTMLDivElement>()
+
 onMounted(() => {
   scrollToBottom()
+
+  const adsScript = document.createElement('script')
+  adsScript.async = true
+  adsScript.crossOrigin = 'anonymous'
+  adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7153678914837081'
+
+  const inlineScript = document.createElement('script')
+  inlineScript.type = 'text/javascript'
+  inlineScript.text = '(adsbygoogle = window.adsbygoogle || []).push({});'
+
+  containerRef.value.appendChild(adsScript)
+  containerRef.value.appendChild(inlineScript)
 })
 
 onUnmounted(() => {
@@ -544,10 +558,11 @@ catch (error) {
           :class="[isMobile ? 'p-2' : 'p-4']"
         >
           <template v-if="!dataSources.length">
-            <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
+            <!-- <div class="flex items-center justify-center mt-4 text-center text-neutral-300">
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
               <span>Aha~</span>
-            </div>
+            </div> -->
+            <div ref="containerRef" />
             <br>
 
             <div style="color: black; text-align: center;">
