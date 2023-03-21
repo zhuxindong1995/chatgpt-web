@@ -562,7 +562,6 @@ catch (error) {
             <div>
               <br>
               <br>
-              <br>
               <div style="text-align: center;">
                 <img src="https://im.geekcloud.cf/file/afabe856504ff27591723.png" style="margin: auto; display: inline-block; width: 35%; height: 35%;">
                 <img src="https://im.geekcloud.cf/file/fb48ab4d864e5d1701321.png" style="margin: auto; display: inline-block; width: 35%; height: 35%;">
