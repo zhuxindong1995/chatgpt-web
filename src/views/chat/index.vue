@@ -514,12 +514,12 @@ onMounted(() => {
   adsScript.crossOrigin = 'anonymous'
   adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7153678914837081'
 
-  const inlineScript = document.createElement('script')
-  inlineScript.type = 'text/javascript'
-  inlineScript.text = '(adsbygoogle = window.adsbygoogle || []).push({});'
+  // const inlineScript = document.createElement('script')
+  // inlineScript.type = 'text/javascript'
+  // inlineScript.text = '(adsbygoogle = window.adsbygoogle || []).push({});'
 
   containerRef.value.appendChild(adsScript)
-  containerRef.value.appendChild(inlineScript)
+  // containerRef.value.appendChild(inlineScript)
 })
 
 onUnmounted(() => {
