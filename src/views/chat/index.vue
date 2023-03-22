@@ -582,11 +582,9 @@ catch (error) {
                 <img src="https://im.geekcloud.cf/file/fb48ab4d864e5d1701321.png" style="margin: auto; display: inline-block; width: 35%; height: 35%;">
               </div>
               <div style="color: black; text-align: center;">
-                api_key费用由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落。
+                公益站api_key费用由本人承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落。您的支持可以让小站坚持的更久。
               </div>
-              <div style="color: black; text-align: center;">
-                公益站余额消耗很快，每小时可以回答200个问题，站长会尽力及时补，如果有需要私人定制使用，可以联系站长的 <a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank">WeChat</a>
-              </div>
+        
             </div>
           </template>
           <template v-else>
