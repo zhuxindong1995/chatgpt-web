@@ -202,10 +202,10 @@ http://你的ip:3002/
 docker build -t chatgpt-web .
 
 # 前台运行
-docker run --name chatgpt-web --rm -it -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
+docker run --name chatgpt-web --rm -it -p 127.0.0.1:3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
 
 # 后台运行
-docker run --name chatgpt-web -d -p 3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
+docker run --name chatgpt-web -d -p 127.0.0.1:3002:3002 --env OPENAI_API_KEY=your_api_key chatgpt-web
 
 # 运行地址
 http://localhost:3002/
@@ -222,7 +222,7 @@ services:
   app:
     image: zhuxindong/chatgpt-web # 总是使用 latest ,更新时重新 pull 该 tag 镜像即可
     ports:
-      - 3002:3002
+      - 127.0.0.1:3002:3002
     environment:
       # 二选一
       OPENAI_API_KEY: sk-xxx
