@@ -566,7 +566,7 @@ catch (error) {
             <br>
 
             <div style="color: black; text-align: center;">
-              永久免费提供学习和测试，支持上下文，支持保存会话。
+              永久免费提供学习和测试，最新永久域名<a href="https://geekch.art/" class="text-blue-500">https://geekch.art/</a>。欢迎收藏和转发。
             </div>
             <div style="color: black; text-align: center; font-size: 150%;">
               <h1><a href="https://cdn.suyusafe.com/" class="text-blue-500" target="_blank">速御安全专业解决DD/CC攻击高防免备案</a></h1>
