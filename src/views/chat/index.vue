@@ -568,10 +568,10 @@ catch (error) {
             <div style="color: black; text-align: center;">
               永久免费提供学习和测试，最新永久域名<a href="https://geekch.art/" class="text-blue-500">https://geekch.art/</a>。欢迎收藏和转发。
             </div>
-            <div style="color: black; text-align: center; font-size: 150%;">
+            <div style="color: black; text-align: center; font-size: 120%;">
               <h1><a href="https://cdn.suyusafe.com/" class="text-blue-500" target="_blank">速御安全专业解决DD/CC攻击高防免备案</a></h1>
             </div>
-						<div style="color: black; text-align: center; font-size: 150%;">
+						<div style="color: black; text-align: center; font-size: 130%;">
               <h1><a href="https://keya.pw/" class="text-blue-500" target="_blank">ChatGPT账号购买|全网最低价</a></h1>
             </div>
             <div style="color: black; text-align: center; font-size: 100%;">
