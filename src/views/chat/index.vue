@@ -504,7 +504,6 @@ const footerClass = computed(() => {
   return classes
 })
 
-const containerRef = ref<HTMLDivElement>()
 
 onMounted(() => {
   scrollToBottom()
