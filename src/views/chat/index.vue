@@ -202,7 +202,7 @@ async function onConversation() {
         +uuid,
         dataSources.value.length - 1,
         {
-          text: '${currentChat.text}\n[${errorMessage}]',
+          text: `${currentChat.text}\n[${errorMessage}]`,
           error: false,
           loading: false,
         },
@@ -509,17 +509,6 @@ const containerRef = ref<HTMLDivElement>()
 onMounted(() => {
   scrollToBottom()
 
-  const adsScript = document.createElement('script')
-  adsScript.async = true
-  adsScript.crossOrigin = 'anonymous'
-  adsScript.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7153678914837081'
-
-  // const inlineScript = document.createElement('script')
-  // inlineScript.type = 'text/javascript'
-  // inlineScript.text = '(adsbygoogle = window.adsbygoogle || []).push({});'
-
-  containerRef.value!.appendChild(adsScript)
-  // containerRef.value.appendChild(inlineScript)
 })
 
 onUnmounted(() => {
@@ -562,7 +551,6 @@ catch (error) {
               <SvgIcon icon="ri:bubble-chart-fill" class="mr-2 text-3xl" />
               <span>Aha~</span>
             </div> -->
-            <div ref="containerRef" />
             <br>
 
             <div style="color: black; text-align: center;">
