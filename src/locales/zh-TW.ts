@@ -26,6 +26,7 @@ export default {
     failed: '操作失敗',
   },
   chat: {
+    newChatButton: '新建對話',
     placeholder: '來說點什麼...（Shift + Enter = 換行）',
     placeholderMobile: '來說點什麼...',
     copy: '複製',
@@ -68,6 +69,7 @@ export default {
     balance: 'API余額',
   },
   store: {
+    siderButton: '提示詞商店',
     local: '本機',
     online: '線上',
     title: '標題',
