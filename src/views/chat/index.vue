@@ -555,6 +555,9 @@ catch (error) {
             </div> -->
             <br>
 
+						<div style="color: red; text-align: center;">
+              OpenAI大量封禁账户，站长正在努力解决中，大家稍安勿躁。
+            </div>
             <div style="color: black; text-align: center;">
               永久免费提供学习和测试，最新永久域名<a href="https://geekch.art/" class="text-blue-500">https://geekch.art/</a>。欢迎收藏和转发。
             </div>
