@@ -508,7 +508,6 @@ const footerClass = computed(() => {
   return classes
 })
 
-
 onMounted(() => {
   scrollToBottom()
   if (inputRef.value && !isMobile.value)
@@ -553,7 +552,7 @@ catch (error) {
             </div> -->
             <br>
 
-						<div style="color: red; text-align: center;">
+            <div style="color: red; text-align: center;">
               OpenAI大量封禁账户，站长正在努力解决中，大家稍安勿躁。
             </div>
             <div style="color: black; text-align: center;">
@@ -562,23 +561,21 @@ catch (error) {
             <div style="color: black; text-align: center; font-size: 120%;">
               <h1><a href="https://cdn.suyusafe.com/" class="text-blue-500" target="_blank">速御安全专业解决DD/CC攻击高防免备案</a></h1>
             </div>
-						<div style="color: black; text-align: center; font-size: 130%;">
+            <!-- <div style="color: black; text-align: center; font-size: 130%;">
               <h1><a href="https://keya.pw/" class="text-blue-500" target="_blank">ChatGPT账号购买|全网最低价</a></h1>
-            </div>
+            </div> -->
             <div style="color: black; text-align: center; font-size: 100%;">
-              <h1><a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank">广告位招租</a></h1>
+              <h1><a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank">广告位招租 WeChat</a></h1>
             </div>
             <div>
               <br>
-              <br>
+              <div style="color: black; text-align: center;">
+                公益站api_key费用由站长承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落。您的支持可以让小站坚持的更久。
+              </div>
               <div style="text-align: center;">
                 <img src="https://im.geekcloud.cf/file/afabe856504ff27591723.png" style="margin: auto; display: inline-block; width: 35%; height: 35%;">
                 <img src="https://im.geekcloud.cf/file/fb48ab4d864e5d1701321.png" style="margin: auto; display: inline-block; width: 35%; height: 35%;">
               </div>
-              <div style="color: black; text-align: center;">
-                公益站api_key费用由站长承担，如果你觉得对你有帮助并且条件允许的话，可以给我买一瓶冰阔落。您的支持可以让小站坚持的更久。
-              </div>
-        
             </div>
           </template>
           <template v-else>
