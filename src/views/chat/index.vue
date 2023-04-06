@@ -562,7 +562,7 @@ catch (error) {
               <h1><a href="https://cdn.suyusafe.com/" class="text-blue-500" target="_blank">速御安全专业解决DD/CC攻击高防免备案</a></h1>
             </div>
             <div style="color: black; text-align: center; font-size: 130%;">
-              <h1><a href="https://keya.pw/" class="text-blue-500" target="_blank" style="color:blue">ChatGPT账号购买|全网最低价</a></h1>
+              <h1><a href="https://keya.pw/" class="text-blue-500" target="_blank" style="color:blue">ChatGPT账号购买|全网最低价(广告赞助商，非本站账号，本站无任何收费服务)</a></h1>
             </div>
             <div style="color: black; text-align: center; font-size: 100%;">
               <h1><a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank">广告位招租 联系WeChat</a></h1>
