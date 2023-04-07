@@ -553,7 +553,7 @@ catch (error) {
             <br>
 
             <div style="color: red; text-align: center;">
-              OpenAI大量封禁账户，站长正在努力解决中，大家稍安勿躁，站长会一直坚持做下去，感谢大家的支持~
+              限流是因为量太大，大家等几秒重试，站长正在增加服务器，还请大家见谅，站长会一直坚持做下去，感谢大家的支持~
             </div>
             <div style="color: black; text-align: center;">
               永久免费提供学习和测试，无任何群，无任何套路，最新永久域名<a href="https://geekch.art/" class="text-blue-500">https://geekch.art/</a>。欢迎收藏和转发。
@@ -562,7 +562,7 @@ catch (error) {
               <h1><a href="https://cdn.suyusafe.com/" class="text-blue-500" target="_blank">速御安全专业解决DD/CC攻击高防免备案</a></h1>
             </div>
             <div style="color: black; text-align: center; font-size: 130%;">
-              <h1><a href="https://keya.pw/" class="text-blue-500" target="_blank" style="color:blue">ChatGPT账号购买|全网最低价(广告赞助商，非本站账号，本站无任何收费服务)</a></h1>
+              <h1><a href="https://keya.pw/" class="text-blue-500" target="_blank" style="color:blue">ChatGPT账号购买|全网最低价(非本站账号，需要去OpenAI官网使用)</a></h1>
             </div>
             <div style="color: black; text-align: center; font-size: 100%;">
               <h1><a href="https://im.geekcloud.cf/file/cd1cf29a4f9c59b7a6488.png" class="text-blue-500" target="_blank">广告位招租 联系WeChat</a></h1>
