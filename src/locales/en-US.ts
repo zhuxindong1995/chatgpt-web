@@ -24,6 +24,9 @@ export default {
     wrong: 'Something went wrong, please try again later.',
     success: 'Success',
     failed: 'Failed',
+    verify: 'Verify',
+    unauthorizedTips: 'Unauthorized, please verify first.',
+		stopResponding: 'Stop Responding',
   },
   chat: {
     newChatButton: 'New Chat',
