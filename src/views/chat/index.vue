@@ -550,10 +550,10 @@ catch (error) {
             <br>
 
             <div style="color: red; text-align: center;">
-              永久免费提供学习和测试，无任何群，无任何套路，域名被dns污染，最新域名是<a href="https://chat1.geekgpt.site" class="text-blue-500">https://chat1.geekgpt.site</a>，站长会一直坚持做下去，感谢大家的支持~
+              永久免费提供学习和测试，无任何套路，域名经常被dns污染，欢迎加Q群857321878获取最新地址，站长会一直坚持做下去，感谢大家的支持~
             </div>
             <div style="color: black; text-align: center;">
-              如果本域名被污染，可以访问https://chat2.geekgpt.site、https://chat3.geekgpt.site，一直到chat99都可以访问，欢迎收藏和转发。
+              如果本域名被污染，可以加Q群857321878获取最新地址，也可以尝试访问https://chat2.geekgpt.site、https://chat3.geekgpt.site，一直到chat99都可以访问，欢迎收藏和转发。
             </div>
             
             <div style="color: black; text-align: center; font-size: 130%;">
